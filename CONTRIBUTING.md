@@ -11,9 +11,9 @@ By contributing you agree to respect the [Code of Conduct](https://github.com/Eb
 3. We have 5 kinds of lists. Choose the right one:
 
     - *Books* : PDF, HTML, ePub, a gitbook.io based site, a Git repo, etc.
-    - *Courses* : A course is a learning material which is not a book and where there is no interactive tool embedded in the site. [This is a course](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/).
+    - *Courses* : A course is a learning material which is not a book. [This is a course](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/).
     - *Interactive Tutorials* : An interactive website which lets the user type code or commands and evaluates the result (by "evaluate" we don't mean "grade"). e.g.: [Try Haskell](http://tryhaskell.org), [Try Github](http://try.github.io).
-    - *JavaScript Resources* : Any resources teaching a JavaScript framework or library.
+    - *Podcasts and Screencasts* : Podcasts and screencasts.
     - *Problem Sets & Competitive Programming* : A website or software which lets you assess your programming skills by solving simple or complex problems, with or without code review, with or without comparing the results with other users.
 
 4. Make sure to follow the [guidelines below](#guidelines) and respect the [Markdown formatting](#formatting) of the files
@@ -38,10 +38,11 @@ By contributing you agree to respect the [Code of Conduct](https://github.com/Eb
 - if a link exists in multiple format, add a separate link with a note about each format
 - if a resource exists at different places on the Internet
     + use the link with the most authoritative source (meaning author's website is better than editor's website is better than third party website)
-    + if they link to different editions and you judge these editions are different enough to be worth keeping them, add a separate link with a note about each edition
+    + if they link to different editions and you judge these editions are different enough to be worth keeping them, add a separate link with a note about each edition (see [Issue #2353](https://github.com/EbookFoundation/free-programming-books/issues/2353) to contribute to the discussion on formatting.)
 - prefer atomic commits (one commit by addition/deletion/modification) over bigger commits. No need to squash your commits before submitting a PR. (We will never enforce this rule as it's just a matter of convenience for the maintainers)
 - if the book is older, include the publication date with the title. 
 - include the author name or names where appropriate. You can shorten author lists with "et al."
+- if the book is not finished, and is still being worked on, add the "in process" notation, as described [below.](#in_process)
 
 ### Formatting
 - All lists are `.md` files. Try to learn [Markdown](https://guides.github.com/features/mastering-markdown/) syntax. It's simple!
@@ -82,15 +83,15 @@ GOOD: * [Another Awesome Book](http://example.com/book.html) - John Doe
 - Put a single space between the link and its format
 
 ```
-BAD : * [Another Awesome Book](http://example.com/book.pdf)(PDF)
-GOOD: * [Another Awesome Book](http://example.com/book.pdf) (PDF)
+BAD : * [A Very Awesome Book](https://example.org/book.pdf)(PDF)
+GOOD: * [A Very Awesome Book](https://example.org/book.pdf) (PDF)
 ```
 
 - Author comes before format:
 
 ```
-BAD : * [Another Awesome Book](http://example.com/book.pdf)- John Doe
-GOOD: * [Another Awesome Book](http://example.com/book.pdf) - John Doe (PDF)
+BAD : * [A Very Awesome Book](https://example.org/book.pdf)- Jane Roe
+GOOD: * [A Very Awesome Book](https://example.org/book.pdf) - Jane Roe (PDF)
 ```
 
 - Multiple formats:
@@ -104,6 +105,13 @@ GOOD: * [Another Awesome Book](http://example.com/) - John Doe (HTML) [(PDF, EPU
 - Include publication year in title for older books:
 
 ```
-BAD: * [Another Awesome Book](http://example.com/book.html) - John Doe - 1970
-GOOD: * [Another Awesome Book (1970)](http://example.com/book.html) - John Doe
+BAD: * [A Very Awesome Book](https://example.org/book.html) - Jane Roe - 1970
+GOOD: * [A Very Awesome Book (1970)](https://example.org/book.html) - Jane Roe
+```
+
+<a name="in_process"></a>
+- In-process books 
+
+```
+GOOD: * [Will Be Awesome Soon Book](http://example.com/book2.html) - John Doe (HTML) (:construction: *in process*)
 ```

@@ -1,8 +1,7 @@
-### Index
+﻿### Index
 
 * [Algorithms & Data Structures](#algorithms--data-structures)
 * [Android](#android)
-* [AngularJS](#angularjs)
 * [Assembly](#assembly)
 * [Bash / Shell](#bash--shell)
 * [C](#c)
@@ -21,16 +20,22 @@
 * [iOS](#ios)
 * [Java](#java)
 * [JavaScript](#javascript)
-  * [JQuery](#jquery)
+  * [Angular.js](#angularjs)
+  * [jQuery](#jquery)
+  * [React](#react)
+  * [Redux](#redux)
+  * [Sails.js](#sailsjs)
 * [Lua](#lua)
 * [Machine Learning](#machine-learning)
 * [Matlab](#matlab)
+* [Mercurial](#mercurial)
 * [Misc](#misc)
 * [.NET](#net)
 * [OCaml](#ocaml)
 * [Oracle PL/SQL](#oracle-plsql)
 * [PHP](#php)
 * [Python](#python)
+* [QB64](#QB64)
 * [R](#r)
 * [RethinkDB](#rethinkdb)
 * [Ruby](#ruby)
@@ -38,16 +43,20 @@
 * [Scala](#scala)
 * [Software Engineering](#software-engineering)
 * [Swift](#swift)
-* [SystemVerilog](#systemverilog)
 * [Theory](#theory)
+* [Verilog / VHDL / SystemVerilog](#verilog--vhdl--systemverilog)
 * [Web Development](#web-development)
 
 
 ### Algorithms & Data Structures
 
 * [Berkeley University CS 61B: Data Structures](http://datastructur.es/sp16/)
+* [IIT Bombay Foundation of Data Structures (CS213.1x)](https://courses.edx.org/courses/course-v1:IITBombayX+CS213.1x+1T2017/course/)
+* [Introduction to Algorithms (SMA 5503)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005) - Charles Leiserson
+* [Princeton University Algorithms, Part 1](https://www.coursera.org/learn/algorithms-part1)
+* [Princeton University Algorithms, Part 2](https://www.coursera.org/learn/algorithms-part2)
 * [Stanford University Algorithms: Design and Analysis, Part 1](http://online.stanford.edu/course/algorithms-design-and-analysis-part-1)
-* [Stanford University Algorithms:Algorithms: Design and Analysis, Part 2](http://online.stanford.edu/course/algorithms-design-and-analysis-part-2)
+* [Stanford University Algorithms: Design and Analysis, Part 2](http://online.stanford.edu/course/algorithms-design-and-analysis-part-2)
 
 
 ### Assembly
@@ -69,15 +78,8 @@
 * [Udacity Android Course Catalog](https://www.udacity.com/courses#!/android#!/android)
 
 
-### AngularJS
-
-* [CodeCademy Angular](https://www.codecademy.com/learn/learn-angularjs)
-* [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
-
-
 ### Bash / Shell
 
-* [Bash tutorial](http://gdrcorelec.ups-tlse.fr/files/bash.pdf) (PDF)
 * [Bento Shell Track](https://bento.io/topic/shell) (Bento)
 
 
@@ -117,6 +119,7 @@
 ### Data Science
 
 * [Introduction to Python for Data Science](https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-3)
+* [The Analytics Edge](https://www.edx.org/course/analytics-edge-mitx-15-071x-3)
 
 
 ### Databases
@@ -129,6 +132,7 @@
 
 * [Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io)
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu)
+* [Practical Deep Learning For Coders taught](http://www.fast.ai) - Jeremy Howard
 * [Self-Paced Courses for Deep Learning ](https://developer.nvidia.com/deep-learning-courses)
 * [Unsupervised Feature Learning and Deep Learning](http://deeplearning.stanford.edu/tutorial)
 * [What is Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
@@ -173,6 +177,7 @@
 
 * [AppCoda Complete iOS Tutorial](http://www.appcoda.com/ios-programming-course/)
 * [Developing iOS 7 Apps for iPhone and iPad](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550)
+* [Ray Wenderlich iOS Tutorial](https://www.raywenderlich.com/category/ios)
 
 
 ### Java
@@ -180,7 +185,7 @@
 * [Central Connecticut State University, Introduction to CS Using Java](http://chortle.ccsu.edu/CS151/cs151java.html)
 * [Introduction to Java](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)
 * [Java for Complete Beginners](http://courses.caveofprogramming.com/courses/java-for-complete-beginners)
-* [Learn how to program: Java](https://www.learnhowtoprogram.com/java) - Epicodus Inc.
+* [Learn how to program: Java](https://www.learnhowtoprogram.com/java-june-2017) - Epicodus Inc.
 * [Princeton Algorithms, Part 1](https://www.coursera.org/course/algs4partI)
 * [Princeton Algorithms, Part 2](https://www.coursera.org/course/algs4partII)
 * [Problem Solving With Java](https://www.udacity.com/course/intro-to-java-programming--cs046)
@@ -194,9 +199,32 @@
 * [learn:query](https://learnquery.infinum.co)
 
 
-#### JQuery
+#### Angular.js
+
+* [Angular.js Youtube Channel](https://www.youtube.com/angularjs)
+* [CodeCademy Angular](https://www.codecademy.com/learn/learn-angularjs)
+* [egghead.io youtube channel: Learn AngularJS with Tutorial Videos & Training](https://www.youtube.com/user/johnlindquist)
+* [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
+
+
+#### jQuery
 
 * [Bento jQuery Track](https://bento.io/topic/jquery) (Bento)
+
+
+#### React
+
+* [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
+
+
+#### Redux
+
+* [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
+
+
+### Sails.Js
+
+* [Develop web apps in Node.js and Sails.js](https://courses.platzi.com/courses/develop-apps-sails-js/)
 
 
 ### Lua
@@ -207,6 +235,7 @@
 
 ### Machine Learning
 
+* [Machine Learning Mini Bootcamp](https://lambdaschool.com/free-course-machine-learning/)
 * [Stanford University Machine Learning](https://www.coursera.org/learn/machine-learning)
 
 
@@ -215,17 +244,19 @@
 * [MIT 18.S997 Introduction to MATLAB Programming](http://ocw.mit.edu/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/)
 
 
+### Mercurial
+
+* [Hg Init: a Mercurial Tutorial](http://hginit.com) - Joel Spolsky
+
+
 ### Misc
 
 * [Advanced Data Structures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/)
 * [Algorithm Design and Implementation](https://www.youtube.com/playlist?list=PL6EF0274BD849A7D5)
-* [Berkeley's CS  61B: Data Structures](https://www.youtube.com/playlist?list=PL-XXv-cvA_iDXrTvCvDgIkeCWeSIDr4Yh)
-* [Berkeley's CS  70: Discrete Mathematics and Probability Theory](https://www.youtube.com/course?list=EC1A2EBAC4283FE3EA)
-* [Berkeley's CS 162: Operating Systems and Systems Programming](https://www.youtube.com/view_play_list?p=-XXv-cvA_iCrnl0625nXp4GimjT-cv_1)
-* [Berkeley's CS 164: Programming Languages and Compilers](https://www.youtube.com/playlist?list=PL3A16CFC42CA6EF4F&feature=plcp)
-* [Berkeley's CS 169: Software Engineering](https://www.youtube.com/view_play_list?p=-XXv-cvA_iAS_kCeleydK6mDc0kCbdhU)
-* [Berkeley's CS 194: What is an Operating System?](https://www.youtube.com/view_play_list?p=-XXv-cvA_iB_5Q8G8kW5idSwNmXypmQE)
-* [Berkeley's Math 10B: Methods of Mathematics: Calculus, Statistics, and Combinatorics](https://www.youtube.com/view_play_list?p=-XXv-cvA_iCZ8sTG0pDuBubsDfOFoY2X)
+* [Berkeley's CS  61B: Data Structures](https://archive.org/details/ucberkeley_webcast_QMV45tHCYNI)
+* [Berkeley's CS 162: Operating Systems and Systems Programming](https://www.youtube.com/watch?v=feAOZuID1HM)
+* [Berkeley's CS 169: Software Engineering](https://www.youtube.com/watch?v=fXokQpWsszU)
+* [Berkeley's CS 194: What is an Operating System?](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs194-spring2013-berkeley.html)
 * [Bits: The Computer Science of Digital Information](http://www.extension.harvard.edu/open-learning-initiative/bits)
 * [Computer Graphics](http://nptel.ac.in/courses/106106090/)
 * [FindLectures.com](https://www.findlectures.com/?class1=Technology) - Index of conference talks by language / topic
@@ -283,6 +314,11 @@
 * [Python Course](http://www.python-course.eu)
 
 
+### QB64
+
+* [Game Programming with QB64](http://qb64sourcecode.com) - Terry Ritchie
+
+
 ### R
 
 * [R Programming](https://www.coursera.org/course/rprog)
@@ -297,11 +333,6 @@
 
 * [Learn how to program: Ruby](https://www.learnhowtoprogram.com/ruby) - Epicodus Inc.
 * [RubyMonk - Interactive Ruby tutorials](https://rubymonk.com)
-
-
-### Sails.Js
-
-* [Develop web apps in Node.js and Sails.js](https://courses.platzi.com/courses/develop-apps-sails-js/)
 
 
 ### Scala
@@ -323,21 +354,24 @@
 * [Swiftris - Build an iOS Tetris app from scratch](https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift)
 
 
-### SystemVerilog
-
-* [SystemVerilog - Learn basics of SystemVerilog for Hardware Verification](https://verificationexcellence.teachable.com/p/learn-systemverilog)
-* [SystemVerilog based UVM Methodology - Learn to build UVM based Testbenches in SystemVerilog](https://verificationexcellence.teachable.com/p/learn-ovm-uvm)
-
-
 ### Theory
 
 * [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about)
 * [Udacity: Intro to Theoretical Computer Science](https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313)
 
 
+### Verilog / VHDL / SystemVerilog
+
+* [SOC Verification Using SystemVerilog](http://verificationexcellence.in/online-courses/soc-verification-using-systemverilog)
+* [SystemVerilog - Learn basics of SystemVerilog for Hardware Verification](https://verificationexcellence.teachable.com/p/learn-systemverilog)
+* [SystemVerilog based UVM Methodology - Learn to build UVM based Testbenches in SystemVerilog](https://verificationexcellence.teachable.com/p/learn-ovm-uvm)
+* [Verilog Hardware Description Language - An Introductory Course](http://vol.verilog.com/VOL/main.htm)
+
+
 ### Web Development
 
 * [Discover Flask - Full Stack Web Development with Flask](https://github.com/realpython/discover-flask)
 * [Flask(A Python Microframework) Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+* [Free Code Camp](https://www.freecodecamp.org)
 * [The Odin Project - Learn Web Development for Free](http://www.theodinproject.com)
 * [Udacity Web Development Course Catalog](https://www.udacity.com/courses#!/web-development#!/web-development)
